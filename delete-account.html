@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laudatio - Account & Data Deletion</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            line-height: 1.7; 
+            color: #2c3e50; 
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 40px 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            border: 1px solid #e9ecef;
+        }
+        .lang-switch {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+        .lang-btn {
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: bold;
+            color: #495057;
+            margin-left: 4px;
+        }
+        .lang-btn.active {
+            background-color: #2c3e50;
+            color: #ffffff;
+            border-color: #2c3e50;
+        }
+        h1 { color: #1a252f; border-bottom: 2px solid #eaeaea; padding-bottom: 12px; font-size: 26px; }
+        h2 { color: #2c3e50; margin-top: 28px; font-size: 20px; }
+        p, li { font-size: 15px; color: #4a5568; }
+        ul, ol { padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .box-warning { background-color: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .btn-email { display: inline-block; background-color: #e74c3c; color: white; padding: 12px 20px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 10px; }
+        .btn-email:hover { background-color: #c0392b; }
+        .highlight { background-color: #fff3cd; padding: 2px 6px; border-radius: 4px; font-weight: bold; color: #856404; }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+        @media (max-width: 600px) {
+            body { padding: 15px; }
+            .container { padding: 20px; }
+            .lang-switch { text-align: center; margin-bottom: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Language Switcher Buttons -->
+        <div class="lang-switch">
+            <button class="lang-btn active" onclick="switchLang('en')">English</button>
+            <button class="lang-btn" onclick="switchLang('pt')">Português</button>
+            <button class="lang-btn" onclick="switchLang('fr')">Français</button>
+        </div>
+
+        <!-- ENGLISH VERSION -->
+        <div id="lang-en" class="lang-content active">
+            <h1>Laudatio — Account & Data Deletion Request</h1>
+            <p>At <strong>Laudatio</strong> (developed by Fulgur Studio), we fully respect your privacy and your right to control your personal data.</p>
+
+            <h2>How to Delete Your Account and Personal Data</h2>
+            
+            <h3>Option 1: Directly In-App (Recommended)</h3>
+            <ol>
+                <li>Open the <strong>Laudatio</strong> app on your device.</li>
+                <li>Go to your <strong>Profile / Settings</strong> screen.</li>
+                <li>Scroll to the bottom and tap <strong>"Delete My Account"</strong>.</li>
+                <li>Confirm the deletion. Your account and personal data will be removed immediately from our servers.</li>
+            </ol>
+
+            <h3>Option 2: Web / Email Request</h3>
+            <p>If you no longer have the app installed on your device and wish to delete your account and server-stored data, please send an email to our support team:</p>
+            
+            <p>
+                <strong>Support Email:</strong><br>
+                <a href="mailto:laudatioapp@gmail.com" class="btn-email">Request Account Deletion via Email</a>
+            </p>
+
+            <p><em>For security reasons, please send the request from the same email address associated with your Laudatio account (Google Sign-In).</em></p>
+
+            <h2>What Data Will Be Deleted?</h2>
+            <p>Upon account deletion, the following data stored on our Supabase servers will be <strong>permanently removed</strong>:</p>
+            <ul>
+                <li>Your account ID, name, and registered email address;</li>
+                <li>Profile picture / avatar;</li>
+                <li>Profile details and sacramental dates (if provided);</li>
+                <li>Prayer history, experience points (XP), titles, and achievements saved in the cloud;</li>
+                <li>Online Virtual Candles usage statistics.</li>
+            </ul>
+
+            <div class="box-warning">
+                <strong>Note regarding the Spiritual Diary:</strong> Your Spiritual Diary entries are saved exclusively on your local device. Uninstalling the app from your device automatically deletes these local entries.
+            </div>
+
+            <h2>Processing Time</h2>
+            <p>Requests made directly inside the app are processed instantly. Requests submitted via email are completed within <strong>15 business days</strong>.</p>
+        </div>
+
+        <!-- PORTUGUESE VERSION -->
+        <div id="lang-pt" class="lang-content">
+            <h1>Laudatio — Solicitação de Exclusão de Conta e Dados</h1>
+            <p>No aplicativo <strong>Laudatio</strong> (desenvolvido por Fulgur Studio), respeitamos totalmente a sua privacidade e o seu direito de controlar seus dados pessoais.</p>
+
+            <h2>Como excluir sua conta e dados pessoais</h2>
+            
+            <h3>Opção 1: Diretamente pelo Aplicativo (Recomendado)</h3>
+            <ol>
+                <li>Abra o aplicativo <strong>Laudatio</strong> no seu celular.</li>
+                <li>Acesse a tela do seu <strong>Perfil / Configurações</strong>.</li>
+                <li>Role até o final da página e toque na opção <strong>"Excluir Minha Conta"</strong>.</li>
+                <li>Confirme a exclusão. Sua conta e seus dados serão removidos imediatamente dos nossos servidores.</li>
+            </ol>
+
+            <h3>Opção 2: Solicitação via Web / E-mail</h3>
+            <p>Se você não tem mais o aplicativo instalado e deseja apagar sua conta dos nossos servidores, envie um e-mail para o nosso suporte:</p>
+            
+            <p>
+                <strong>E-mail de Suporte:</strong><br>
+                <a href="mailto:laudatioapp@gmail.com" class="btn-email">Solicitar Exclusão por E-mail</a>
+            </p>
+
+            <p><em>Por razões de segurança, envie a solicitação a partir do mesmo e-mail cadastrado na sua conta do Laudatio (Google Sign-In).</em></p>
+
+            <h2>Quais dados serão excluídos?</h2>
+            <p>Ao solicitar a exclusão da conta, os seguintes dados salvos nos servidores do Supabase serão <strong>permanentemente apagados</strong>:</p>
+            <ul>
+                <li>Seu identificador de conta, nome e e-mail cadastrados;</li>
+                <li>Foto de perfil / avatar;</li>
+                <li>Informações do perfil e datas sacramentais (se preenchidas);</li>
+                <li>Histórico de orações, pontos de experiência (XP), títulos e conquistas salvas em nuvem;</li>
+                <li>Histórico de uso do Velário online.</li>
+            </ul>
+
+            <div class="box-warning">
+                <strong>Nota sobre o Diário Espiritual:</strong> O conteúdo do seu Diário Espiritual é guardado exclusivamente no seu celular. Caso desinstale o aplicativo do dispositivo, esses registros locais serão apagados automaticamente.
+            </div>
+
+            <h2>Prazo de Processamento</h2>
+            <p>Solicitações feitas dentro do aplicativo são processadas instantaneamente. Solicitações enviadas por e-mail são concluídas em até <strong>15 dias úteis</strong>.</p>
+        </div>
+
+        <!-- FRENCH VERSION -->
+        <div id="lang-fr" class="lang-content">
+            <h1>Laudatio — Demande de Suppression de Compte et de Données</h1>
+            <p>Chez <strong>Laudatio</strong> (développé par Fulgur Studio), nous respectons pleinement votre vie privée et votre droit de contrôler vos données personnelles.</p>
+
+            <h2>Comment supprimer votre compte et vos données personnelles</h2>
+            
+            <h3>Option 1 : Directement depuis l'application (Recommandé)</h3>
+            <ol>
+                <li>Ouvrez l'application <strong>Laudatio</strong> sur votre appareil.</li>
+                <li>Accédez à votre <strong>Profil / Paramètres</strong>.</li>
+                <li>Faites défiler vers le bas et appuyez sur <strong>"Supprimer mon compte"</strong>.</li>
+                <li>Confirmez la suppression. Votre compte et vos données seront immédiatement supprimés de nos serveurs.</li>
+            </ol>
+
+            <h3>Option 2 : Demande par Web / E-mail</h3>
+            <p>Si vous n'avez plus l'application installée et souhaitez supprimer votre compte de nos serveurs, envoyez un e-mail à notre support :</p>
+            
+            <p>
+                <strong>E-mail de support :</strong><br>
+                <a href="mailto:laudatioapp@gmail.com" class="btn-email">Demander la suppression par e-mail</a>
+            </p>
+
+            <p><em>Pour des raisons de sécurité, veuillez envoyer la demande depuis l'adresse e-mail associée à votre compte Laudatio (Google Sign-In).</em></p>
+
+            <h2>Quelles données seront supprimées ?</h2>
+            <p>Lors de la suppression du compte, les données suivantes stockées sur nos serveurs Supabase seront <strong>définitivement effacées</strong> :</p>
+            <ul>
+                <li>Votre identifiant de compte, nom et adresse e-mail enregistrée ;</li>
+                <li>Photo de profil / avatar ;</li>
+                <li>Détails du profil et dates sacramentelles (si renseignés) ;</li>
+                <li>Historique des prières, points d'expérience (XP), titres et succès enregistrés dans le cloud ;</li>
+                <li>Statistiques d'utilisation du Brûloir de cierges virtuel en ligne.</li>
+            </ul>
+
+            <div class="box-warning">
+                <strong>Remarque concernant le Journal Spirituel :</strong> Le contenu de votre Journal Spirituel est stocké exclusivement sur votre appareil local. La désinstallation de l'application efface automatiquement ces entrées locales.
+            </div>
+
+            <h2>Délai de Traitement</h2>
+            <p>Les demandes effectuées dans l'application sont traitées instantanément. Les demandes soumises par e-mail sont traitées sous <strong>15 jours ouvrés</strong>.</p>
+        </div>
+
+    </div>
+
+    <script>
+        function switchLang(lang) {
+            // Hide all language contents
+            document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+            // Deactivate all buttons
+            document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+            
+            // Show selected language
+            document.getElementById('lang-' + lang).classList.add('active');
+            
+            // Activate clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
