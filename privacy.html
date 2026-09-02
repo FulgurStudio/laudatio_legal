@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laudatio - Privacy Policy / Política de Privacidade</title>
+    <title>Laudatio - Privacy Policy</title>
     <style>
         body { 
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -23,36 +23,42 @@
         }
         .lang-switch {
             text-align: right;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #edf2f7;
         }
         .lang-btn {
             background-color: #e9ecef;
             border: 1px solid #ced4da;
-            padding: 6px 12px;
-            border-radius: 4px;
+            padding: 8px 16px;
+            border-radius: 6px;
             cursor: pointer;
-            font-size: 13px;
+            font-size: 14px;
             font-weight: bold;
             color: #495057;
-            margin-left: 4px;
+            margin-left: 6px;
+            transition: all 0.2s ease;
         }
         .lang-btn.active {
             background-color: #2c3e50;
             color: #ffffff;
             border-color: #2c3e50;
         }
-        h1 { color: #1a252f; border-bottom: 2px solid #eaeaea; padding-bottom: 12px; font-size: 28px; }
+        h1 { color: #1a252f; border-bottom: 2px solid #eaeaea; padding-bottom: 12px; font-size: 28px; margin-top: 0; }
         h2 { color: #2c3e50; margin-top: 32px; border-bottom: 1px solid #f0f0f0; padding-bottom: 6px; font-size: 20px; }
         h3 { color: #34495e; margin-top: 20px; font-size: 16px; }
         p, li { font-size: 15px; color: #4a5568; }
         ul, ol { padding-left: 20px; }
         li { margin-bottom: 8px; }
+        a { color: #2980b9; text-decoration: none; word-break: break-all; }
+        a:hover { text-decoration: underline; }
         .lang-content { display: none; }
         .lang-content.active { display: block; }
         @media (max-width: 600px) {
             body { padding: 15px; }
             .container { padding: 20px; }
-            .lang-switch { text-align: center; margin-bottom: 25px; }
+            .lang-switch { text-align: center; }
+            .lang-btn { margin: 3px; }
         }
     </style>
 </head>
@@ -74,75 +80,327 @@
             <p>Welcome to Laudatio, an application developed by Fulgur Studio, an independent developer based in France.</p>
             <p>This Privacy Policy explains how Laudatio collects, uses, stores, and protects personal information when you use the app. We are committed to respecting your privacy and collecting only the information reasonably necessary to provide the features you choose to use.</p>
             <p>Laudatio does not require you to provide personal information to access the app in Guest Mode. Most profile and spiritual information is optional and provided voluntarily by you.</p>
+            <p>By using Laudatio, you acknowledge this Privacy Policy and agree to the processing of data as described herein.</p>
 
             <h2>2. Data Controller</h2>
             <p>The data controller responsible for processing the personal data described in this Policy is:</p>
             <p>
                 <strong>Fulgur Studio</strong><br>
                 Independent Developer — France<br>
-                Privacy Contact: <strong>laudatioapp@gmail.com</strong>
+                Privacy Contact: <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a>
             </p>
+            <p>For any privacy-related questions or requests, you may contact us using the email address above.</p>
 
             <h2>3. Information We May Collect</h2>
+            <p>Depending on the features you choose to use, Laudatio may process the following categories of information:</p>
+
             <h3>3.1 Account Information</h3>
-            <p>When you create or use an account (e.g., via Google Sign-In), we may receive your email address, account ID, name, and profile picture. <em>Guest Mode requires no personal data.</em></p>
+            <p>When you create or use an account in Laudatio (for example, through Google Sign-In), we may receive:</p>
+            <ul>
+                <li>Email address;</li>
+                <li>Account identifier;</li>
+                <li>Name;</li>
+                <li>Profile picture (when provided);</li>
+                <li>Information required for authentication.</li>
+            </ul>
+            <p><em>In Guest Mode, no personal information is required to browse the application.</em></p>
 
-            <h3>3.2 Profile & Sacramental Information (Optional)</h3>
-            <p>You may voluntarily provide your name, bio, patron saint, and sacramental dates (Baptism, Confirmation, etc.). This special category data is processed only with your explicit consent and can be deleted at any time.</p>
+            <h3>3.2 Profile Information (Optional)</h3>
+            <p>You may voluntarily provide:</p>
+            <ul>
+                <li>Name and biography;</li>
+                <li>Photo or avatar;</li>
+                <li>Chosen patron saint;</li>
+                <li>Interface and privacy preferences.</li>
+            </ul>
+            <p>These fields are entirely optional.</p>
 
-            <h3>3.3 Spiritual Progress & Virtual Candles</h3>
-            <p>We store your completed prayers, stats, and Virtual Candles usage. Public Virtual Candle intentions are strictly pre-defined by the app (no free-text entry).</p>
+            <h3>3.3 Sacramental Information (Optional)</h3>
+            <p>Laudatio allows you to record important dates in your life of faith (such as Baptism, First Communion, Confirmation, and Marriage). This information may reveal or suggest your religious beliefs (considered special category data under GDPR). We process this data only with your explicit consent when you voluntarily enter it. You may choose not to provide this information, and you can delete it at any time.</p>
 
-            <h3>3.4 Artificial Intelligence (Google Gemini)</h3>
-            <p>Laudatio uses Google Gemini for AI assistance (Lectio Divina, spiritual assessments, catechism queries). Only strictly necessary prompts are transmitted under strict data minimization principles.</p>
+            <h3>3.4 Spiritual Progress and Activity</h3>
+            <p>To display your personal history and statistics, we store in your account:</p>
+            <ul>
+                <li>Completed prayers, rosaries, and spiritual readings;</li>
+                <li>Experience points, levels, titles, and achievements;</li>
+                <li>Usage statistics for the online Virtual Candles feature.</li>
+            </ul>
 
-            <h3>3.5 Spiritual Diary (100% Private & Local)</h3>
-            <p><strong>The content of your Spiritual Diary is stored exclusively on your local device.</strong> It is never transmitted to Laudatio, Supabase, Google Gemini, or any third party.</p>
+            <h3>3.5 Online Virtual Candles</h3>
+            <p>In the Virtual Candles feature, you can light candles with three intention options:</p>
+            <ol>
+                <li><strong>Public intention:</strong> Selected exclusively from pre-defined options provided directly by the app (e.g., "For world peace", "For the health of the sick");</li>
+                <li><strong>Private intention:</strong> Associated only with your personal account, with no display of the reason to other users;</li>
+                <li><strong>No intention:</strong> Lighting the candle without indicating a reason.</li>
+            </ol>
+            <p><em>The app does not contain an open text entry field for public Virtual Candles.</em></p>
 
-            <h2>4. Third-Party Services</h2>
-            <p>We rely on trusted infrastructure providers: Google Play Services (Auth & Billing), Google Gemini (AI), Google AdMob (Rewarded Ads), and Supabase (Secure Database for accounts/stats, excluding the Spiritual Diary).</p>
+            <h3>3.6 Profile Pictures</h3>
+            <p>If you upload a photo from your device for your profile, it will be securely stored in Laudatio’s infrastructure to be displayed on your account.</p>
 
-            <h2>5. Account Deletion & Rights</h2>
-            <p>You can delete your account inside the app or via our <a href="delete-account.html">Web Account Deletion Page</a>. Under GDPR, you have full rights to access, correct, or erase your data by contacting us at <strong>laudatioapp@gmail.com</strong>.</p>
+            <h3>3.7 Artificial Intelligence Features</h3>
+            <p>Laudatio uses <strong>Google Gemini</strong> to provide AI-assisted responses. Only the information strictly necessary to answer your request is transmitted (data minimization principle). Examples of AI usage include:</p>
+            <ul>
+                <li>Suggestions for Lectio Divina and spiritual reflections;</li>
+                <li>Answers concerning the Catechism, Canon Law, Liturgy, and Church Fathers;</li>
+                <li>Analysis of self-knowledge and spiritual assessments;</li>
+                <li>Generation of educational text and images.</li>
+            </ul>
+
+            <h3>3.8 Spiritual Diary (100% Private and Local)</h3>
+            <p><strong>The content of your Spiritual Diary is stored exclusively on your device.</strong> No text written in the Spiritual Diary is transmitted to Laudatio servers, Supabase, Google Gemini, or any third party. Laudatio does not read, access, or store your personal diary entries.</p>
+
+            <h3>3.9 AI Usage Limits</h3>
+            <p>We may maintain technical logs associated with your account to enforce usage limits on AI features and prevent abuse or excessive automated requests.</p>
+
+            <h2>4. How We Use Information</h2>
+            <p>We use your information to:</p>
+            <ul>
+                <li>Create and manage your account;</li>
+                <li>Provide your history, statistics, and spiritual progress;</li>
+                <li>Process AI features and personalize the app;</li>
+                <li>Display rewarded ads (AdMob);</li>
+                <li>Process digital purchases via Google Play Billing;</li>
+                <li>Maintain application security and prevent fraud;</li>
+                <li>Comply with legal obligations.</li>
+            </ul>
+            <p><strong>We never sell your personal information.</strong></p>
+
+            <h2>5. Legal Bases (GDPR)</h2>
+            <p>We process your data based on:</p>
+            <ul>
+                <li>Performance of the service requested by you;</li>
+                <li>Explicit consent (for optional profile/sacramental data);</li>
+                <li>Legitimate interest in keeping the application secure and functional;</li>
+                <li>Legal compliance.</li>
+            </ul>
+            <p>You may withdraw your consent at any time without affecting the lawfulness of processing carried out prior to withdrawal.</p>
+
+            <h2>6. Google Sign-In</h2>
+            <p>If you choose to log in with Google, Google will provide us with your email address, name, and profile picture for authentication purposes. Laudatio does not receive access to your Google account beyond what is necessary to sign you in.</p>
+
+            <h2>7. Third-Party Services</h2>
+            <p>To operate seamlessly, Laudatio uses the following third-party service providers:</p>
+            <ul>
+                <li><strong>Google Play Services:</strong> Authentication and purchases;</li>
+                <li><strong>Google Gemini:</strong> Artificial intelligence;</li>
+                <li><strong>Google AdMob:</strong> Rewarded advertising;</li>
+                <li><strong>Supabase:</strong> Secure database for profile storage and progress (excluding the Spiritual Diary).</li>
+            </ul>
+
+            <h2>8. Storage in Supabase</h2>
+            <p>We use Supabase infrastructure to store your account data (email, name, achievements, prayer history, and Virtual Candles). <strong>We reinforce: your Spiritual Diary is not transmitted to or stored in Supabase.</strong></p>
+
+            <h2>9. Advertising (Google AdMob)</h2>
+            <p>Laudatio may display rewarded ads via Google AdMob (e.g., voluntarily watching a video to unlock a virtual candle). Where required by applicable law, we will obtain your consent before displaying personalized ads. Watching ads is never mandatory to use the basic application features.</p>
+
+            <h2>10. Purchases and Contributions</h2>
+            <p>All digital purchases or voluntary contributions made in the app are processed <strong>exclusively through Google Play's official billing system (Google Play Billing)</strong>. Laudatio does not directly store or process your banking or credit card details.</p>
+
+            <h2>11. Data Retention</h2>
+            <ul>
+                <li><strong>Account and Profile Data:</strong> Retained as long as your account remains active.</li>
+                <li><strong>Progress:</strong> Retained while the account exists to provide your charts and achievements.</li>
+                <li><strong>Spiritual Diary:</strong> Stored locally on your device only. If you uninstall the app or clear app data on your device, the diary entries will be deleted.</li>
+            </ul>
+
+            <h2>12. Account and Data Deletion</h2>
+            <p>You can delete your account and all associated personal data at any time:</p>
+            <ol>
+                <li><strong>In-App:</strong> In your profile settings section.</li>
+                <li><strong>Via Web:</strong> Through the link <a href="https://fulgurstudio.github.io/laudatio_legal/delete-account.html">https://fulgurstudio.github.io/laudatio_legal/delete-account.html</a>.</li>
+            </ol>
+
+            <h2>13. User Rights (GDPR)</h2>
+            <p>When applicable, you have the right to access, correct, or request deletion of your personal data, restrict processing, withdraw consent, or lodge a complaint with a competent authority (in France, the <strong>CNIL</strong>).</p>
+            <p>To exercise your rights, please contact us via email: <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a>.</p>
+
+            <h2>14. Children's Privacy</h2>
+            <p>Laudatio is not specifically directed to children and does not knowingly collect personal information from children for independent account creation. Guest Mode requires no personal data.</p>
+
+            <h2>15. International Transfers</h2>
+            <p>As Fulgur Studio is based in France and uses global service providers (such as Google), your data may be processed on servers located outside your country of residence under appropriate legal safeguards.</p>
+
+            <h2>16. Security</h2>
+            <p>We implement reasonable technical and organizational measures to protect your personal information. Users are also responsible for safeguarding their own devices and credentials.</p>
+
+            <h2>17. Changes to This Policy</h2>
+            <p>We may update this Privacy Policy periodically. Updates will be posted on this page with the revised date indicated at the top of the document.</p>
+
+            <h2>18. Contact</h2>
+            <p>
+                <strong>Fulgur Studio</strong><br>
+                France<br>
+                Privacy Email: <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a><br>
+                Legal Page / GitHub Pages: <a href="https://fulgurstudio.github.io/laudatio_legal/">https://fulgurstudio.github.io/laudatio_legal/</a><br>
+                Effective Date: September 1, 2026
+            </p>
         </div>
 
         <!-- PORTUGUESE VERSION -->
         <div id="lang-pt" class="lang-content">
             <h1>LAUDATIO — POLÍTICA DE PRIVACIDADE</h1>
-            <p><strong>Última atualização:</strong> 1 de Setembro de 2026</p>
+            <p><strong>Última atualização:</strong> 1 de setembro de 2026</p>
 
             <h2>1. Introdução</h2>
-            <p>Bem-vindo ao Laudatio, aplicativo desenvolvido pela Fulgur Studio, desenvolvedora independente estabelecida na França.</p>
-            <p>Esta Política de Privacidade explica como o Laudatio coleta, utiliza, armazena e protege suas informações pessoais. O Laudatio não exige dados pessoais no Modo Convidado, e a maioria das informações de perfil é opcional.</p>
+            <p>Bem-vindo ao Laudatio, um aplicativo desenvolvido por Fulgur Studio, desenvolvedor independente com sede na França.</p>
+            <p>Esta Política de Privacidade explica como o Laudatio coleta, utiliza, armazena e protege as informações pessoais quando você usa o aplicativo. Nos comprometemos a respeitar sua privacidade e a coletar apenas as informações razoavelmente necessárias para fornecer os recursos que você escolher utilizar.</p>
+            <p>O Laudatio não exige que você forneça informações pessoais para acessar o aplicativo no Modo Convidado. A maioria das informações de perfil e espirituais é opcional e fornecida voluntariamente por você.</p>
+            <p>Ao utilizar o Laudatio, você reconhece esta Política de Privacidade e concorda com o processamento dos dados conforme descrito neste documento.</p>
 
-            <h2>2. Responsável pelo Tratamento</h2>
+            <h2>2. Responsável pelo Tratamento de Dados</h2>
+            <p>O responsável pelo tratamento dos dados pessoais descritos nesta Política é:</p>
             <p>
                 <strong>Fulgur Studio</strong><br>
-                Desenvolvedora independente — França<br>
-                Contato de privacidade: <strong>laudatioapp@gmail.com</strong>
+                Desenvolvedor Independente — França<br>
+                Contato de Privacidade: <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a>
             </p>
+            <p>Para quaisquer dúvidas ou solicitações relacionadas à privacidade, você pode entrar em contato conosco pelo e-mail acima.</p>
 
-            <h2>3. Informações Coletadas</h2>
-            <h3>3.1 Dados de Conta</h3>
-            <p>Ao criar uma conta (ex: Google Sign-In), recebemos e-mail, nome, ID e foto. <em>No Modo Convidado, nenhum dado pessoal é exigido.</em></p>
+            <h2>3. Informações que Podemos Coletar</h2>
+            <p>Dependendo dos recursos que você escolher utilizar, o Laudatio pode processar as seguintes categorias de informações:</p>
 
-            <h3>3.2 Perfil e Dados Sacramentais (Opcionais)</h3>
-            <p>Você pode registrar dados do perfil e datas de sacramentos. Tratamos essas informações religiosas apenas com seu consentimento explícito.</p>
+            <h3>3.1 Informações da Conta</h3>
+            <p>Quando você cria ou utiliza uma conta no Laudatio (por exemplo, via Google Sign-In), podemos receber:</p>
+            <ul>
+                <li>Endereço de e-mail;</li>
+                <li>Identificador da conta (User ID);</li>
+                <li>Nome;</li>
+                <li>Foto de perfil (quando fornecida);</li>
+                <li>Informações necessárias para autenticação.</li>
+            </ul>
+            <p><em>No Modo Convidado, nenhuma informação pessoal é exigida para navegar no aplicativo.</em></p>
 
-            <h3>3.3 Progresso Espiritual e Velário Online</h3>
-            <p>Registramos seu histórico de orações, estatísticas e velas. As intenções públicas de velas são exclusivamente pré-definidas (sem digitação livre de texto).</p>
+            <h3>3.2 Informações do Perfil (Opcional)</h3>
+            <p>Você pode fornecer voluntariamente:</p>
+            <ul>
+                <li>Nome e biografia;</li>
+                <li>Foto ou avatar;</li>
+                <li>Santo padroeiro escolhido;</li>
+                <li>Preferências de interface e privacidade.</li>
+            </ul>
+            <p>Estes campos são inteiramente opcionais.</p>
 
-            <h3>3.4 Inteligência Artificial (Google Gemini)</h3>
-            <p>Utilizamos o Google Gemini para auxiliar na Lectio Divina, catecismo e análises espirituais, enviando apenas o estritamente necessário.</p>
+            <h3>3.3 Informações Sacramentais (Opcional)</h3>
+            <p>O Laudatio permite que você registre datas importantes da sua vida de fé (como Batismo, Primeira Eucaristia, Crisma e Matrimônio). Essas informações podem revelar ou sugerir suas convicções religiosas (consideradas dados de categoria especial sob o RGPD/LGPD). Processamos esses dados apenas com o seu consentimento explícito quando você os insere voluntariamente. Você pode optar por não fornecer essas informações e pode excluí-las a qualquer momento.</p>
 
-            <h3>3.5 Diário Espiritual (100% Privado e Local)</h3>
-            <p><strong>O conteúdo do seu Diário Espiritual é guardado exclusivamente no seu celular.</strong> Ele nunca é enviado aos servidores do Laudatio, Supabase ou Google Gemini.</p>
+            <h3>3.4 Progresso Espiritual e Atividades</h3>
+            <p>Para exibir seu histórico pessoal e estatísticas, armazenamos em sua conta:</p>
+            <ul>
+                <li>Orações, terços e leituras espirituais concluídas;</li>
+                <li>Pontos de experiência, níveis, títulos e conquistas;</li>
+                <li>Estatísticas de uso do recurso de Velas Virtuais online.</li>
+            </ul>
 
-            <h2>4. Serviços de Terceiros</h2>
-            <p>Utilizamos: Google Play Services (Autenticação e Compras), Google Gemini (IA), Google AdMob (Anúncios recompensados) e Supabase (Banco de dados seguro para contas e progresso, excluindo o Diário).</p>
+            <h3>3.5 Velas Virtuais Online</h3>
+            <p>No recurso de Velas Virtuais, você pode acender velas com três opções de intenção:</p>
+            <ol>
+                <li><strong>Intenção pública:</strong> Selecionada exclusivamente a partir de opções pré-definidas fornecidas diretamente pelo aplicativo (ex.: "Pela paz no mundo", "Pela saúde dos enfermos");</li>
+                <li><strong>Intenção privada:</strong> Associada apenas à sua conta pessoal, sem exibição do motivo para outros usuários;</li>
+                <li><strong>Sem intenção:</strong> Acendimento da vela sem indicar um motivo.</li>
+            </ol>
+            <p><em>O aplicativo não contém um campo de texto livre para digitação em Velas Virtuais públicas.</em></p>
 
-            <h2>5. Exclusão de Conta e Direitos (RGPD)</h2>
-            <p>Você pode apagar sua conta no aplicativo ou pela <a href="delete-account.html">Página Web de Exclusão de Conta</a>. Para exercer seus direitos de acesso ou exclusão, entre em contato via e-mail: <strong>laudatioapp@gmail.com</strong>.</p>
+            <h3>3.6 Fotos de Perfil</h3>
+            <p>Se você enviar uma foto do seu dispositivo para o seu perfil, ela será armazenada com segurança na infraestrutura do Laudatio para ser exibida em sua conta.</p>
+
+            <h3>3.7 Recursos de Inteligência Artificial</h3>
+            <p>O Laudatio utiliza o <strong>Google Gemini</strong> para fornecer respostas assistidas por IA. Apenas as informações estritamente necessárias para responder à sua solicitação são transmitidas (princípio da minimização de dados). Exemplos de uso da IA incluem:</p>
+            <ul>
+                <li>Sugestões para Lectio Divina e reflexões espirituais;</li>
+                <li>Respostas sobre o Catecismo, Direito Canônico, Liturgia e Pais da Igreja;</li>
+                <li>Análise de autoconhecimento e avaliações espirituais;</li>
+                <li>Geração de textos e imagens educativos.</li>
+            </ul>
+
+            <h3>3.8 Diário Espiritual (100% Privado e Local)</h3>
+            <p><strong>O conteúdo do seu Diário Espiritual é armazenado exclusivamente no seu dispositivo.</strong> Nenhum texto escrito no Diário Espiritual é transmitido para os servidores do Laudatio, Supabase, Google Gemini ou qualquer terceiro. O Laudatio não lê, não acessa e não armazena suas anotações pessoais do diário.</p>
+
+            <h3>3.9 Limites de Uso de IA</h3>
+            <p>Podemos manter registros técnicos associados à sua conta para aplicar limites de uso nos recursos de IA e prevenir abusos ou solicitações automatizadas excessivas.</p>
+
+            <h2>4. Como Utilizamos as Informações</h2>
+            <p>Utilizamos suas informações para:</p>
+            <ul>
+                <li>Criar e gerenciar sua conta;</li>
+                <li>Fornecer seu histórico, estatísticas e progresso espiritual;</li>
+                <li>Processar recursos de IA e personalizar o aplicativo;</li>
+                <li>Exibir anúncios recompensados (AdMob);</li>
+                <li>Processar compras digitais via Google Play Billing;</li>
+                <li>Manter a segurança do aplicativo e prevenir fraudes;</li>
+                <li>Cumprir obrigações legais.</li>
+            </ul>
+            <p><strong>Nós nunca vendemos suas informações pessoais.</strong></p>
+
+            <h2>5. Bases Legais (RGPD / LGPD)</h2>
+            <p>Processamos seus dados com base em:</p>
+            <ul>
+                <li>Execução do serviço solicitado por você;</li>
+                <li>Consentimento explícito (para dados opcionais de perfil/sacramentais);</li>
+                <li>Interesse legítimo em manter o aplicativo seguro e funcional;</li>
+                <li>Conformidade legal.</li>
+            </ul>
+            <p>Você pode retirar seu consentimento a qualquer momento sem afetar a legalidade do processamento realizado antes da retirada.</p>
+
+            <h2>6. Google Sign-In</h2>
+            <p>Se você optar por fazer login com o Google, o Google nos fornecerá seu endereço de e-mail, nome e foto de perfil para fins de autenticação. O Laudatio não recebe acesso à sua conta do Google além do necessário para realizar seu login.</p>
+
+            <h2>7. Serviços de Terceiros</h2>
+            <p>Para operar de forma contínua, o Laudatio utiliza os seguintes provedores de serviços de terceiros:</p>
+            <ul>
+                <li><strong>Google Play Services:</strong> Autenticação e compras;</li>
+                <li><strong>Google Gemini:</strong> Inteligência artificial;</li>
+                <li><strong>Google AdMob:</strong> Publicidade recompensada;</li>
+                <li><strong>Supabase:</strong> Banco de dados seguro para armazenamento do perfil e progresso (excluindo o Diário Espiritual).</li>
+            </ul>
+
+            <h2>8. Armazenamento no Supabase</h2>
+            <p>Utilizamos a infraestrutura do Supabase para armazenar os dados da sua conta (e-mail, nome, conquistas, histórico de orações e Velas Virtuais). <strong>Reforçamos: seu Diário Espiritual não é transmitido nem armazenado no Supabase.</strong></p>
+
+            <h2>9. Publicidade (Google AdMob)</h2>
+            <p>O Laudatio pode exibir anúncios recompensados via Google AdMob (ex.: assistir voluntariamente a um vídeo para desbloquear uma vela virtual). Onde exigido pela legislação aplicável, obteremos seu consentimento antes de exibir anúncios personalizados. Assistir a anúncios nunca é obrigatório para usar os recursos básicos do aplicativo.</p>
+
+            <h2>10. Compras e Contribuições</h2>
+            <p>Todas as compras digitais ou contribuições voluntárias feitas no aplicativo são processadas <strong>exclusivamente através do sistema de faturamento oficial do Google Play (Google Play Billing)</strong>. O Laudatio não armazena nem processa diretamente seus dados bancários ou de cartão de crédito.</p>
+
+            <h2>11. Retenção de Dados</h2>
+            <ul>
+                <li><strong>Dados de Conta e Perfil:</strong> Retidos enquanto sua conta permanecer ativa.</li>
+                <li><strong>Progresso:</strong> Retido enquanto a conta existir para fornecer seus gráficos e conquistas.</li>
+                <li><strong>Diário Espiritual:</strong> Armazenado apenas localmente no seu dispositivo. Se você desinstalar o aplicativo ou limpar os dados do app no seu dispositivo, os registros do diário serão excluídos.</li>
+            </ul>
+
+            <h2>12. Exclusão de Conta e Dados</h2>
+            <p>Você pode excluir sua conta e todos os dados pessoais associados a qualquer momento:</p>
+            <ol>
+                <li><strong>No Aplicativo:</strong> Na seção de configurações do seu perfil.</li>
+                <li><strong>Via Web:</strong> Através do link <a href="https://fulgurstudio.github.io/laudatio_legal/delete-account.html">https://fulgurstudio.github.io/laudatio_legal/delete-account.html</a>.</li>
+            </ol>
+
+            <h2>13. Direitos do Usuário (RGPD / LGPD)</h2>
+            <p>Quando aplicável, você tem o direito de acessar, corrigir ou solicitar a exclusão de seus dados pessoais, restringir o processamento, retirar o consentimento ou registrar uma reclamação junto a uma autoridade competente (na França, a <strong>CNIL</strong>).</p>
+            <p>Para exercer seus direitos, entre em contato conosco por e-mail: <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a>.</p>
+
+            <h2>14. Privacidade de Menores</h2>
+            <p>O Laudatio não é especificamente direcionado a crianças e não coleta intencionalmente informações pessoais de crianças para criação independente de conta. O Modo Convidado não exige dados pessoais.</p>
+
+            <h2>15. Transferências Internacionais</h2>
+            <p>Como o Fulgur Studio está sediado na França e utiliza provedores globais de serviços (como o Google), seus dados podem ser processados em servidores localizados fora do seu país de residência sob salvaguardas legais adequadas.</p>
+
+            <h2>16. Segurança</h2>
+            <p>Implementamos medidas técnicas e organizacionais razoáveis para proteger suas informações pessoais. Os usuários também são responsáveis por resguardar seus próprios dispositivos e credenciais.</p>
+
+            <h2>17. Alterações nesta Política</h2>
+            <p>Podemos atualizar esta Política de Privacidade periodicamente. As atualizações serão publicadas nesta página com a data revisada indicada no topo do documento.</p>
+
+            <h2>18. Contato</h2>
+            <p>
+                <strong>Fulgur Studio</strong><br>
+                França<br>
+                E-mail de Privacidade: <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a><br>
+                Página Legal / GitHub Pages: <a href="https://fulgurstudio.github.io/laudatio_legal/">https://fulgurstudio.github.io/laudatio_legal/</a><br>
+                Data de Vigência: 1 de setembro de 2026
+            </p>
         </div>
 
         <!-- FRENCH VERSION -->
@@ -152,36 +410,163 @@
 
             <h2>1. Introduction</h2>
             <p>Bienvenue sur Laudatio, une application développée par Fulgur Studio, développeur indépendant basé en France.</p>
-            <p>Cette politique de confidentialité explique comment Laudatio collecte, utilise, stocke et protège vos informations personnelles. Laudatio ne requiert aucune donnée personnelle en Mode Invité, et la plupart des informations de profil sont facultatives.</p>
+            <p>Cette politique de confidentialité explique comment Laudatio collecte, utilise, stocke et protège les informations personnelles lorsque vous utilisez l'application. Nous nous engageons à respecter votre vie privée et à ne collecter que les informations raisonnablement nécessaires pour fournir les fonctionnalités que vous choisissez d'utiliser.</p>
+            <p>Laudatio ne vous demande pas de fournir des informations personnelles pour accéder à l'application en Mode Invité. La plupart des informations de profil et spirituelles sont facultatives et fournies volontairement par vous.</p>
+            <p>En utilisant Laudatio, vous reconnaissez cette politique de confidentialité et acceptez le traitement des données tel que décrit dans le présent document.</p>
 
-            <h2>2. Responsable du Traitement</h2>
+            <h2>2. Responsable du Traitement des Données</h2>
+            <p>Le responsable du traitement des données personnelles décrites dans cette Politique est :</p>
             <p>
                 <strong>Fulgur Studio</strong><br>
-                Développeur indépendant — France<br>
-                Contact confidentialité : <strong>laudatioapp@gmail.com</strong>
+                Développeur Indépendant — France<br>
+                Contact Confidentialité : <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a>
             </p>
+            <p>Pour toute question ou demande concernant la confidentialité, vous pouvez nous contacter via l'adresse e-mail ci-dessus.</p>
 
-            <h2>3. Informations Collectées</h2>
-            <h3>3.1 Données de Compte</h3>
-            <p>Lors de la création d'un compte (ex: Google Sign-In), nous recevons votre e-mail, nom, identifiant et photo. <em>Le Mode Invité ne nécessite aucune donnée personnelle.</em></p>
+            <h2>3. Informations que Nous Pouvons Collecter</h2>
+            <p>Selon les fonctionnalités que vous choisissez d'utiliser, Laudatio peut traiter les catégories d'informations suivantes :</p>
 
-            <h3>3.2 Profil et Données Sacramentelles (Optionnel)</h3>
-            <p>Vous pouvez enregistrer vos informations de profil et dates sacramentelles. Ces données religieuses sont traitées uniquement avec votre consentement explicite.</p>
+            <h3>3.1 Informations de Compte</h3>
+            <p>Lorsque vous créez ou utilisez un compte dans Laudatio (par exemple, via Google Sign-In), nous pouvons recevoir :</p>
+            <ul>
+                <li>Adresse e-mail ;</li>
+                <li>Identifiant de compte (User ID) ;</li>
+                <li>Nom ;</li>
+                <li>Photo de profil (si fournie) ;</li>
+                <li>Informations nécessaires à l'authentification.</li>
+            </ul>
+            <p><em>En Mode Invité, aucune information personnelle n'est requise pour naviguer dans l'application.</em></p>
 
-            <h3>3.3 Progrès Spirituel et Brûloir de Cierges</h3>
-            <p>Nous enregistrons l'historique de vos prières, statistiques et cierges virtuels. Les intentions publiques des cierges sont exclusivement prédéfinies (aucune saisie libre de texte).</p>
+            <h3>3.2 Informations de Profil (Optionnel)</h3>
+            <p>Vous pouvez fournir volontairement :</p>
+            <ul>
+                <li>Nom et biographie ;</li>
+                <li>Photo ou avatar ;</li>
+                <li>Saint patron choisi ;</li>
+                <li>Préférences d'interface et de confidentialité.</li>
+            </ul>
+            <p>Ces champs sont entièrement facultatifs.</p>
 
-            <h3>3.4 Intelligence Artificielle (Google Gemini)</h3>
-            <p>Nous utilisons Google Gemini pour vous assister dans la Lectio Divina, le catéchisme et les évaluations spirituelles, en transmettant uniquement le strict nécessaire.</p>
+            <h3>3.3 Informations Sacramentelles (Optionnel)</h3>
+            <p>Laudatio vous permet d'enregistrer des dates importantes de votre vie de foi (telles que le Baptême, la Première Communion, la Confirmation et le Mariage). Ces informations peuvent révéler ou suggérer vos convictions religieuses (considérées comme des données de catégorie particulière sous le RGPD). Nous ne traitons ces données qu'avec votre consentement explicite lorsque vous les saisissez volontairement. Vous pouvez choisir de ne pas fournir ces informations et vous pouvez les supprimer à tout moment.</p>
 
-            <h3>3.5 Journal Spirituel (100% Privé et Local)</h3>
-            <p><strong>Le contenu de votre Journal Spirituel est stocké exclusivement sur votre appareil local.</strong> Il n'est jamais transmis aux serveurs de Laudatio, Supabase ou Google Gemini.</p>
+            <h3>3.4 Progrès Spirituel et Activité</h3>
+            <p>Pour afficher votre historique personnel et vos statistiques, nous stockons dans votre compte :</p>
+            <ul>
+                <li>Prières, chapelets et lectures spirituelles effectués ;</li>
+                <li>Points d'expérience, niveaux, titres et succès ;</li>
+                <li>Statistiques d'utilisation de la fonctionnalité Cierges Virtuels en ligne.</li>
+            </ul>
 
-            <h2>4. Services Tiers</h2>
-            <p>Nous utilisons : Google Play Services (Authentification & Facturation), Google Gemini (IA), Google AdMob (Publicités récompensées) et Supabase (Base de données sécurisée pour les comptes/progrès, hors Journal).</p>
+            <h3>3.5 Cierges Virtuels en Ligne</h3>
+            <p>Dans la fonctionnalité Cierges Virtuels, vous pouvez allumer des cierges avec trois options d'intention :</p>
+            <ol>
+                <li><strong>Intention publique :</strong> Sélectionnée exclusivement parmi des options prédéfinies fournies directement par l'application (ex : "Pour la paix dans le monde", "Pour la santé des malades") ;</li>
+                <li><strong>Intention privée :</strong> Associée uniquement à votre compte personnel, sans affichage du motif aux autres utilisateurs ;</li>
+                <li><strong>Sans intention :</strong> Allumage du cierge sans indiquer de motif.</li>
+            </ol>
+            <p><em>L'application ne contient pas de champ de saisie de texte libre pour les Cierges Virtuels publics.</em></p>
 
-            <h2>5. Suppression de Compte et Droits (RGPD)</h2>
-            <p>Vous pouvez supprimer votre compte depuis l'application ou via notre <a href="delete-account.html">Page Web de Suppression de Compte</a>. Pour exercer vos droits d'accès ou de suppression selon le RGPD (CNIL), contactez-nous par e-mail : <strong>laudatioapp@gmail.com</strong>.</p>
+            <h3>3.6 Photos de Profil</h3>
+            <p>Si vous téléchargez une photo depuis votre appareil pour votre profil, elle sera stockée en toute sécurité dans l'infrastructure de Laudatio pour être affichée sur votre compte.</p>
+
+            <h3>3.7 Fonctionnalités d'Intelligence Artificielle</h3>
+            <p>Laudatio utilise <strong>Google Gemini</strong> pour fournir des réponses assistées par IA. Seules les informations strictement nécessaires pour répondre à votre demande sont transmises (principe de minimisation des données). Exemples d'utilisation de l'IA :</p>
+            <ul>
+                <li>Suggestions de Lectio Divina et réflexions spirituelles ;</li>
+                <li>Réponses concernant le Catéchisme, le Droit Canonique, la Liturgie et les Pères de l'Église ;</li>
+                <li>Analyse de la connaissance de soi et évaluations spirituelles ;</li>
+                <li>Génération de textes et d'images éducatifs.</li>
+            </ul>
+
+            <h3>3.8 Journal Spirituel (100% Privé et Local)</h3>
+            <p><strong>Le contenu de votre Journal Spirituel est stocké exclusivement sur votre appareil.</strong> Aucun texte écrit dans le Journal Spirituel n'est transmis aux serveurs de Laudatio, Supabase, Google Gemini ou un tiers. Laudatio ne lit, n'accède ni ne stocke vos notes personnelles de journal.</p>
+
+            <h3>3.9 Limites d'Utilisation de l'IA</h3>
+            <p>Nous pouvons conserver des journaux techniques associés à votre compte pour appliquer des limites d'utilisation aux fonctionnalités d'IA et prévenir les abus ou les requêtes automatisées excessives.</p>
+
+            <h2>4. Comment Nous Utilisons les Informations</h2>
+            <p>Nous utilisons vos informations pour :</p>
+            <ul>
+                <li>Créer et gérer votre compte ;</li>
+                <li>Fournir votre historique, vos statistiques et votre progrès spirituel ;</li>
+                <li>Traiter les fonctionnalités d'IA et personnaliser l'application ;</li>
+                <li>Afficher des publicités récompensées (AdMob) ;</li>
+                <li>Traiter les achats numériques via Google Play Billing ;</li>
+                <li>Maintenir la sécurité de l'application et prévenir la fraude ;</li>
+                <li>Respecter les obligations légales.</li>
+            </ul>
+            <p><strong>Nous ne vendons jamais vos informations personnelles.</strong></p>
+
+            <h2>5. Bases Légales (RGPD)</h2>
+            <p>Nous traitons vos données sur la base de :</p>
+            <ul>
+                <li>L'exécution du service demandé par vous ;</li>
+                <li>Le consentement explicite (pour les données optionnelles de profil/sacrements) ;</li>
+                <li>L'intérêt légitime à maintenir l'application sécurisée et fonctionnelle ;</li>
+                <li>La conformité légale.</li>
+            </ul>
+            <p>Vous pouvez retirer votre consentement à tout moment sans affecter la licéité du traitement effectué avant ce retrait.</p>
+
+            <h2>6. Google Sign-In</h2>
+            <p>Si vous choisissez de vous connecter avec Google, Google nous fournira votre adresse e-mail, votre nom et votre photo de profil à des fins d'authentification. Laudatio ne reçoit aucun accès à votre compte Google au-delà de ce qui est nécessaire pour vous connecter.</p>
+
+            <h2>7. Services Tiers</h2>
+            <p>Pour fonctionner de manière fluide, Laudatio utilise les fournisseurs de services tiers suivants :</p>
+            <ul>
+                <li><strong>Google Play Services :</strong> Authentification et achats ;</li>
+                <li><strong>Google Gemini :</strong> Intelligence artificielle ;</li>
+                <li><strong>Google AdMob :</strong> Publicité récompensée ;</li>
+                <li><strong>Supabase :</strong> Base de données sécurisée pour le stockage du profil et du progrès (à l'exclusion du Journal Spirituel).</li>
+            </ul>
+
+            <h2>8. Stockage dans Supabase</h2>
+            <p>Nous utilisons l'infrastructure de Supabase pour stocker les données de votre compte (e-mail, nom, succès, historique de prière et Cierges Virtuels). <strong>Nous rappelons : votre Journal Spirituel n'est pas transmis ni stocké dans Supabase.</strong></p>
+
+            <h2>9. Publicité (Google AdMob)</h2>
+            <p>Laudatio peut afficher des annonces récompensées via Google AdMob (ex : regarder volontairement une vidéo pour débloquer un cierge virtuel). Lorsque la loi applicable l'exige, nous obtiendrons votre consentement avant d'afficher des annonces personnalisées. Regarder des annonces n'est jamais obligatoire pour utiliser les fonctionnalités de base de l'application.</p>
+
+            <h2>10. Achats et Contributions</h2>
+            <p>Tous les achats numériques ou contributions volontaires effectués dans l'application sont traités <strong>exclusivement via le système de facturation officiel de Google Play (Google Play Billing)</strong>. Laudatio ne stocke ni ne traite directement vos coordonnées bancaires ou de carte de crédit.</p>
+
+            <h2>11. Conservation des Données</h2>
+            <ul>
+                <li><strong>Données de Compte et Profil :</strong> Conservées tant que votre compte reste actif.</li>
+                <li><strong>Progrès :</strong> Conservé tant que le compte existe pour fournir vos graphiques et succès.</li>
+                <li><strong>Journal Spirituel :</strong> Stocké uniquement localement sur votre appareil. Si vous désinstallez l'application ou effacez les données de l'application, les entrées du journal seront supprimées.</li>
+            </ul>
+
+            <h2>12. Suppression de Compte et de Données</h2>
+            <p>Vous pouvez supprimer votre compte et toutes les données personnelles associées à tout moment :</p>
+            <ol>
+                <li><strong>Dans l'Application :</strong> Dans la section des paramètres de votre profil.</li>
+                <li><strong>Via Web :</strong> Via le lien <a href="https://fulgurstudio.github.io/laudatio_legal/delete-account.html">https://fulgurstudio.github.io/laudatio_legal/delete-account.html</a>.</li>
+            </ol>
+
+            <h2>13. Droits de l'Utilisateur (RGPD)</h2>
+            <p>Le cas échéant, vous avez le droit d'accéder à vos données personnelles, de les corriger ou d'en demander la suppression, de restreindre le traitement, de retirer votre consentement ou de déposer une réclamation auprès d'une autorité compétente (en France, la <strong>CNIL</strong>).</p>
+            <p>Pour exercer vos droits, veuillez nous contacter par e-mail : <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a>.</p>
+
+            <h2>14. Confidentialité des Mineurs</h2>
+            <p>Laudatio n'est pas spécifiquement destiné aux enfants et ne collecte pas sciemment d'informations personnelles auprès d'enfants pour la création autonome de compte. Le Mode Invité ne requiert aucune donnée personnelle.</p>
+
+            <h2>15. Transferts Internationaux</h2>
+            <p>Fulgur Studio étant basé en France et utilisant des prestataires mondiaux (comme Google), vos données peuvent être traitées sur des serveurs situés hors de votre pays de résidence sous des garanties juridiques appropriées.</p>
+
+            <h2>16. Sécurité</h2>
+            <p>Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger vos informations personnelles. Les utilisateurs sont également responsables de la protection de leurs propres appareils et identifiants.</p>
+
+            <h2>17. Modifications de cette Politique</h2>
+            <p>Nous pouvons mettre à jour cette politique de confidentialité périodiquement. Les mises à jour seront publiées sur cette page avec la date révisée indiquée en haut du document.</p>
+
+            <h2>18. Contact</h2>
+            <p>
+                <strong>Fulgur Studio</strong><br>
+                France<br>
+                E-mail Confidentialité : <a href="mailto:laudatioapp@gmail.com">laudatioapp@gmail.com</a><br>
+                Page Juridique / GitHub Pages : <a href="https://fulgurstudio.github.io/laudatio_legal/">https://fulgurstudio.github.io/laudatio_legal/</a><br>
+                Date d'Entrée en Vigueur : 1er septembre 2026
+            </p>
         </div>
 
     </div>
